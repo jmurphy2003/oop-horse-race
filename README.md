@@ -1,4 +1,3 @@
-/*
 # Updated Horse Race Game
 
 The goal of this project was to rewrite the original Horse Race game using an object‑oriented approach. 
@@ -47,4 +46,3 @@ Each turn:
    - Call printLane() for each horse.
    - Check if any horse is a winner.
 3. Print the winning horse and end the program.
-*/
