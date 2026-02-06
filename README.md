@@ -28,9 +28,11 @@ Horse::advance(trackLength)
 	1.	Flip a coin (0 or 1).
 	2.	If the coin is 1 and the horse is not at the end, increase its position by 1.
 
-Horse::printLane(trackLength)
-	1.	Get the horse’s current position.
-	2.	Loop from 0 to trackLength - 1:
-	•	If the index equals the horse’s position → print the horse’s ID.
-	•	Else → print a dot .
-	3.	End the line.
+Race::run()
+    1. Print starting lanes for all horses.
+    2. While no horse has won:
+        • Wait for the user to press Enter.
+        • Call advance() for each horse.
+        • Call printLane() for each horse.
+        • Check if any horse is a winner.
+    3. Print the winning horse and end the program.
